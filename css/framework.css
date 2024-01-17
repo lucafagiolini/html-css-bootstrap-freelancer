@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* reset */
+
+
+
+/* test rules */
+.test * {
+    border: dashed 1px rgb(0, 0, 0);
+    background-color: rgba(255, 0, 0, 0.2);
+    /* test */
+}
