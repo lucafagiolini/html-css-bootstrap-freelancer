@@ -20,6 +20,18 @@ body {
     background-color: #1abc9c;
 }
 
+.light-gray {
+    background-color: #39546d;
+}
+
+.dark-gray {
+    background-color: #2c3d50;
+}
+
+.text-green {
+    color: #1abc9c;
+}
+
 .white {
     background-color: white;
 }
