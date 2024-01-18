@@ -10,6 +10,21 @@ body {
     max-height: 250px;
 }
 
+#message {
+    height: 300px;
+}
+
+/* colors */
+
+.green {
+    background-color: #1abc9c;
+}
+
+.white {
+    background-color: white;
+}
+
+
 #columns .card:first-child {
     background-color: #ba4b63;
 }
