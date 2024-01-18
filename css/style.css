@@ -15,6 +15,9 @@ body {
 }
 
 /* colors */
+.hr-white {
+    border-color: white;
+}
 
 .green {
     background-color: #1abc9c;
