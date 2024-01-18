@@ -155,9 +155,9 @@
                         id="InputPhoneNumber" placeholder="Phone Number">
                 </div>
                 <div id="message" class="col-10 d-flex align-content-start">
-                    <input type="message"
-                        class="form-control text-wrap border-top-0 border-end-0 border-start-0 rounded-0"
-                        id="InputMessage" placeholder="Message">
+                    <textarea
+                        class="form-control form-control text-wrap border-top-0 border-end-0 border-start-0 rounded-0"
+                        aria-label="With textarea" placeholder="Message"></textarea>
                 </div>
                 <div class="d-flex justify-content-start col-10">
                     <button type="send" class="w-fit m-2 btn green text-white">Submit</button>
@@ -167,12 +167,26 @@
 
     </main>
     <footer class="py-5 container container-sm container-md container-lg container-xl">
-        <div class="row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
+        <div class="row row-cols-lg-3 row-cols-md-3 row-cols-sm-1">
             <div>
                 <h3>location</h3>
+                <p>2215 John Daniel Drive Clark,</p>
+                <p>MO 54243</p>
             </div>
-            <p>2215 John Daniel Drive Clark,</p>
-            <p>MO 54243</p>
+            <div class="">
+                <h3>around the web</h3>
+                <div>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-google-plus-g"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="">
+                <h3>about freelancer</h3>
+                <p>Freelance is a free to use, open source Bootstrap theme created by <a href="#">start bootstrap</a>
+                </p>
+            </div>
         </div>
 
     </footer>
