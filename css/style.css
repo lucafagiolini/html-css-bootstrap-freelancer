@@ -1,8 +1,35 @@
 body {
     background-color: #23272d;
     color: white;
+    font-family: sans-serif;
 }
 
 /* salva retina */
 
-nav {}
+#avatar {
+    max-height: 250px;
+}
+
+#columns .card:first-child {
+    background-color: #ba4b63;
+}
+
+#columns .card:nth-child(2) {
+    background-color: #1da4b6;
+}
+
+#columns .card:nth-child(3) {
+    background-color: #140f0f;
+}
+
+#columns .card:nth-child(4) {
+    background-color: #1c83c1;
+}
+
+#columns .card:nth-child(5) {
+    background-color: #0f38b5;
+}
+
+#columns .card:nth-child(6) {
+    background-color: #ccb2a3;
+}
