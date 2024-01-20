@@ -15,8 +15,8 @@ body {
 }
 
 /* colors */
-.hr-white {
-    border-color: white;
+.f-black {
+    color: #23272d;
 }
 
 .green {
@@ -62,4 +62,12 @@ body {
 
 #columns .card:nth-child(6) {
     background-color: #ccb2a3;
+}
+
+/* buttons footer */
+
+footer button {
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
 }
